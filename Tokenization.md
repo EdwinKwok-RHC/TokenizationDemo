@@ -19,4 +19,3 @@ To implement tokenization:
 2. **Integrate Tokenization**: Integrate the tokenization service into your payment processing system.
 3. **Update Policies**: Ensure your security policies and procedures reflect the use of tokenization.
 
-Tokenization is a powerful tool for enhancing security and simplifying PCI DSS compliance. If you have any specific questions or need further details, feel free to ask!
