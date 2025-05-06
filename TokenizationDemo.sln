@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScopeMinimizedTokenizationDemo", "ScopeMinimizedTokenizationDemo\ScopeMinimizedTokenizationDemo.csproj", "{B99CC2EF-22DA-980F-5DA4-822147550FEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B99CC2EF-22DA-980F-5DA4-822147550FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99CC2EF-22DA-980F-5DA4-822147550FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99CC2EF-22DA-980F-5DA4-822147550FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99CC2EF-22DA-980F-5DA4-822147550FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6F134C8-A3EF-4219-9E11-F47912DE69CF}
+	EndGlobalSection
+EndGlobal
