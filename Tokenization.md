@@ -19,3 +19,21 @@ To implement tokenization:
 2. **Integrate Tokenization**: Integrate the tokenization service into your payment processing system.
 3. **Update Policies**: Ensure your security policies and procedures reflect the use of tokenization.
 
+
+
+## Project
+    'ScopeMinimizedTokenizationDemo'
+
+# Tokenization with self cleanup
+
+## Project
+    'TimedScopeMinimizedTokenizationDemo'
+
+## **How It Works:**
+
+1. **Service Initialization**: When the application starts, the `TokenCleanupService` is initialized.
+2. **Scheduled Cleanup**: The `StartAsync` method sets the timer to run the cleanup task every hour.
+3. **Token Cleanup**: The `CleanupTokens` method periodically removes expired tokens from the token store.
+4. **Service Shutdown**: When the application stops, the `StopAsync` method stops the timer.
+
+By implementing and engaging the `TokenCleanupService`, you ensure that expired tokens are regularly cleaned up, preventing the token store from building up and consuming excessive memory.

@@ -30,6 +30,15 @@ Make note of the tokens such as
 ## TimedScopeMinimizedTokenizationDemo
 Based on the ScopeMinimizedTokenizationDemo adding token expriation and clean up token function
 
+## **How It Works:**
+
+1. **Service Initialization**: When the application starts, the `TokenCleanupService` is initialized.
+2. **Scheduled Cleanup**: The `StartAsync` method sets the timer to run the cleanup task every hour.
+3. **Token Cleanup**: The `CleanupTokens` method periodically removes expired tokens from the token store.
+4. **Service Shutdown**: When the application stops, the `StopAsync` method stops the timer.
+
+By implementing and engaging the `TokenCleanupService`, you ensure that expired tokens are regularly cleaned up, preventing the token store from building up and consuming excessive memory.
+
 ### Test
 1. Run the application and test the tokenization functionality.
 
